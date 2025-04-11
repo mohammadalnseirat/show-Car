@@ -9,3 +9,8 @@ export interface ICustomButtonProps {
   rightIcon?: string;
   isDisabled?: boolean;
 }
+
+export interface ISearchManufacturerProps {
+  manufacturer: string;
+  setManufacturer: (manufacturer: string) => void;
+}
